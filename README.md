@@ -4,7 +4,9 @@ You can get interactive league stats, for example where are Tottenham placed in 
 
 This database is compatible with sql and mongodb nodejs stacks, which I have also designed to compare differences in flexibility and optimization. I am working towards making a completely stateless server and table-generator-client in order to make complex data queries simple and intuitive.
 
-The stats page makes use of more complex data queries on the back end, using aggregation, nested query statements and multiple joins. If you are an SQL or mongoDb user, the server side code dealing with these queries might be of interest, if you want to see how ORM and ODM queries compare. MySql/Node server
+The stats page makes use of more complex data queries on the back end, using aggregation, nested query statements and multiple joins. If you are an SQL or mongoDb user, the server side code dealing with these queries might be of interest, if you want to see how ORM and ODM queries compare. MySql/Node server.
+
+Both front-end and back-end are fully tested using jest and vue test-library.
 # footy-vue-github
 
 ## Project setup
